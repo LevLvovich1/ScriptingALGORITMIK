@@ -7,7 +7,7 @@ public class Destroy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      //Destroy object SPHERE 
+      //Разрушение объекта SPHERE 
       Destroy(SphereDestroy) ;
     }
 
