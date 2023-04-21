@@ -14,7 +14,7 @@ public class CreatePrimitives : MonoBehaviour
        GameObject.CreatePrimitive (PrimitiveType.Cube).transform.position = new Vector3(0.5f, 2, 0);
        GameObject.CreatePrimitive (PrimitiveType.Cube).transform.position = new Vector3(-0.5f, 2, 0);
        GameObject.CreatePrimitive (PrimitiveType.Cube).transform.position = new Vector3(0, 3, 0);
-       //Printing text: Stive in HERE
+       //Печатает в консоль текст: Stive in HERE
        print("Stive In HERE");
     }
 
