@@ -15,4 +15,5 @@ public class SpeedTrigger : MonoBehaviour
     {
         other.GetComponent<FirstPersonMovement>().runSpeed /= speedFactor;
     }
+    
 }
