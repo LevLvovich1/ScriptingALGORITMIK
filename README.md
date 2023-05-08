@@ -3,6 +3,9 @@
 - 🌱 I’m currently learning C#
 - 💞️ I’m looking to collaborate on small project (3D modelling)
 - 📫 Write to comments for communication
+.
+.
+.
 
 - 👋 Привет, меня зовут @LevLvovich1
 - 👀 Я интересуюсь C# и 3D моделированием
