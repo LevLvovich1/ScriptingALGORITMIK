@@ -10,10 +10,4 @@ public class Destroy : MonoBehaviour
       //Разрушение объекта SPHERE 
       Destroy(SphereDestroy) ;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-      
-    }
 }
