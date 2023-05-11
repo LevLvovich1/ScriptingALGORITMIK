@@ -17,11 +17,5 @@ public class CreatePrimitives : MonoBehaviour
        //Печатает в консоль текст: Stive in HERE
        print("Stive In HERE");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
 
