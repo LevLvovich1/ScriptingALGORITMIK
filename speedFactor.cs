@@ -14,6 +14,5 @@ public class SpeedTrigger : MonoBehaviour
     void OnTriggerExit(Collider other)
     {
         other.GetComponent<FirstPersonMovement>().runSpeed /= speedFactor;
-    }
-    
+    }  
 }
