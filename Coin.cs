@@ -7,6 +7,10 @@ public class Coin : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Player player = other.GetComponent<Player>();
-        player.coins += 1
+        //Прибавляет монетку к игроку
+        player.coins += 1;
+        
+        //Удаляет монетку
+        Destroy(gameobject); 
     }
 }
