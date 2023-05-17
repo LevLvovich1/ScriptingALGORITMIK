@@ -4,22 +4,9 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    public GameObject fireballPrefab;
-    public int coins;
-    public Transform attackPoint;
-    private int health = 10;
-    
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter(Collider other)
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Instantiate(fireballPrefab, attackPoint.position, attackPoint.rotation);
-        }
-    }
-    
-    public void CollectCoins()
-    {
-        
+        Player player = other.GetComponent<Player>();
+        player.coins += 1
     }
 }
