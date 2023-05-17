@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public GameObject fireballPrefab;
     public int coins;
     public Transform attackPoint;
+    private int health = 10;
     
     // Update is called once per frame
     void Update()
